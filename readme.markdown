@@ -2,6 +2,10 @@
 
 Return whether an array of 3 points describe a triangle.
 
+[![testling badge](https://ci.testling.com/substack/is-triangle.png)](https://ci.testling.com/substack/is-triangle)
+
+[![build status](https://secure.travis-ci.org/substack/is-triangle.png)](http://travis-ci.org/substack/is-triangle)
+
 # example
 
 ``` js
