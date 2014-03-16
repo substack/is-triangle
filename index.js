@@ -26,7 +26,7 @@ module.exports = function (pts) {
     }
     
     for (var i = 0; i < dim - 1; i++) {
-        if (mb[i] === mc[i]) return false;
+        if (mb[i] !== mc[i]) return true;
     }
-    return true;
+    return false;
 };
