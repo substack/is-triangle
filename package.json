@@ -1,7 +1,7 @@
 {
   "name": "is-triangle",
   "version": "0.0.0",
-  "description": "return whether an array of points describes a triangle",
+  "description": "return whether an array of points (in any dimension) describe a triangle",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
