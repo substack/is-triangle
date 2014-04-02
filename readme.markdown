@@ -20,11 +20,14 @@ console.log(istriangle([ [ 3, 0 ], [ 4, -2 ], [ 5, 2 ] ])); // true
 var isTriangle = require('is-triangle');
 ```
 
-## isTriangle(pts)
+## isTriangle(pts, opts={})
 
 Return whether the array of `pts` is a triangle, in any dimension.
 
 `pts` is an array array coordinates.
+
+Optionally you can control the tolerance for equality comparisons with
+`opts.tolerance`. The default tolerance is `1e-10`.
 
 # install
 
