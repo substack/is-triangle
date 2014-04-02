@@ -25,3 +25,8 @@ test('nd', function (t) {
     ]), false);
     t.end();
 });
+
+test('tolerance', function (t) {
+    t.equal(isTriangle([ [ 3.000000000000001, 0 ], [ 4, 1 ], [ 5, 2 ] ]), false);
+    t.end();
+});
